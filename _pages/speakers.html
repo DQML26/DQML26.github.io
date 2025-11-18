@@ -1,0 +1,112 @@
+---
+layout: page
+title: Speakers and participants
+---
+<style>
+  table {
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  </style>
+
+<center>
+  <ul>
+    <br><br><h3><b>Invited speakers:</b></h3><br>
+    <p>
+      <b>Assoc. Prof. X</b><br> University of Milan <br> <b>Title:</b> TBA
+    </p>
+    <p>
+      <b>Dr. X</b><br> Berlin Institute of Technology  <br> <b>Title:</b> TBA
+    </p>
+    <p>
+      <b>Dr. X</b><br> University of Vienna <br> <b>Title:</b> Thermodynamic properties by on-the-fly machine-learned potentials within and beyond DFT.
+    </p>
+    <p>
+      <b>Asst. Prof. X</b><br> Trinity College Dublin <br> <b>Title:</b> Spin-Phonon Relaxation: theory, ab initio simulations and machine-learning modelling. 
+    </p>
+    <br><br>
+    <h3><b>List of participants:</b></h3><br>
+  </ul>
+    <table>
+      <tr>
+        <th>Participant</th>
+        <th>Talk title</th>
+      </tr>
+      <tr>
+        <td>Prof. Reinhard Maurer</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>Assoc. Prof. Alexander Ganose</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>Assist. Prof. Katherine Inzani</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>Dr. X</td>
+        <td>Time-Dependent DFTB and Electronic Friction Theory to simulate light driven dynamics at plasmonic  metal surfaces/nanostructures</td>
+      </tr>
+      <tr>
+        <td>Dr. X</td>
+        <td>Constructing a Diabatic Hamiltonian for Surface Hopping Calculations at the Example of CO on Au(111)</td>
+      </tr>
+      <tr>
+        <td>Dr. X</td>
+        <td>Development of machine learning to describe excited states of functional organic molecules for high-throughput screening</td>
+      </tr>
+      <tr>
+        <td>Dr. X</td>
+        <td>DFT calculation of adsorption energies and heights at the metal/organic interface</td>
+      </tr>
+      <tr>
+        <td>X</td>
+        <td>Generating machine learning models of nonadiabatic response for hydrogen dissociation dynamics at metal surfaces</td>
+      </tr>
+      <tr>
+        <td>X</td>
+        <td>Revealing a self-interaction error from spurious charge transfer artefacts in core-level constrained x-ray spectroscopy of metal-organic interfaces</td>
+      </tr>
+      <tr>
+        <td>X</td>
+        <td>Visualisation of aromaticity and antiaromaticity in macrocycles</td>
+      </tr>
+    </table>
+  <br>
+</center>
+
+<!-- blog -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      {% for post in site.posts %}
+      {% include post.html %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- /blog -->
+
+<!-- clients -->
+<section class="section bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Sponsors of DQML26</h2>
+      </div>
+    </div>
+    {% include client-slider.html %}
+  </div>
+</section>
+<!-- /clients -->

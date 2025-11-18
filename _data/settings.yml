@@ -1,0 +1,93 @@
+#-------------------------------
+# General Site Settings
+
+title: DQML26
+logo: 
+author: DQML conference preparation committee
+description: welcome to our web-page
+email: w.stark@imperial.ac.uk, 
+phone: a phone number
+address: Explorer Hotel Kitzbühel – Speckbacherstraße 87, 6380 St. Johann in Tirol, Austria
+copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+
+menu:
+- {name: About, link: '/about'}
+- {name: Location, link: '/location'}
+- {name: Schedule, link: '/schedule'}
+- {name: Speakers, link: '/speakers'}
+
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics: # UA-XXXXXX-X
+
+
+#-------------------------------
+# Comment Section (Disqus)
+
+disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
+
+
+#-------------------------------
+# Hero Section
+
+hero:
+  hero-title: "DQML conference 2026: Dynamics, Quantum Effects, and Machine Learning in Materials Science and Computational Chemistry, 02.02.2026 - 05.02.2026"
+
+#social:
+#- {icon: "ti-facebook", link: "#"}
+#- {icon: "ti-instagram", link: "#"}
+#- {icon: "ti-dribbble", link: "#"}
+#- {icon: "ti-twitter", link: "#"}
+
+
+#-------------------------------
+# About (Section and Page)
+
+# About Section
+blurb:
+  This is the official homepage of the DQML (Dynamics, Quantum Effects and Machine Learning in Materials Science and Computational Chemistry) 2026 conference organized jointly by the Imperial College London, University of Warwick, University of Vienna, and University of Nottingham, to be held in Austria, St. Johann in Tirol, from 02/02/2026-05/02/2026.
+  The registration is already closed.
+  We wish you all a safe travel and are looking forward to a great and safe conference.
+blurb-btn-link: '/location'
+blurb-btn-name: Location of the hotel
+
+#-------------------------------
+# Client Slider Section
+
+client-slider-items:
+  - logo: "assets/images/clients-logo/client-logo-1.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-2.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-3.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-4.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-5.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-1.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-2.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-3.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-4.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-5.png"
+    url: "#"
