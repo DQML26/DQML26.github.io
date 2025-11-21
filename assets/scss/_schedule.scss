@@ -8,7 +8,7 @@ $blockLengths: 1, 2, 3, 4;
   padding: 2rem 2rem;
   
   grid-template-columns: 5rem repeat(4, 1fr); 
-  grid-template-rows: repeat(28, 0.5fr);
+  grid-template-rows: repeat(29, 0.5fr);
   grid-template-areas:
     "day day day day day"
     "time800 stage stage stage stage"
