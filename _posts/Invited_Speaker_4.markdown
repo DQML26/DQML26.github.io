@@ -2,7 +2,7 @@
 layout: post
 title:  Asst. Prof. X Y
 date:   2025-11-21 17:00:00 +0300
-image:  assets/images/team/member-3.png
+image:  assets/images/team/member-4.png
 author: WS
 tags:   Invited_Speaker
 ---
