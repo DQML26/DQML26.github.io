@@ -50,10 +50,7 @@ hero:
 # About (Section and Page)
 
 # About Section
-blurb:
-  This is the official homepage of the DQML (Dynamics, Quantum Effects and Machine Learning in Materials Science and Computational Chemistry) 2026 conference organized jointly by the Imperial College London, University of Warwick, University of Vienna, and University of Nottingham, to be held in Austria, St. Johann in Tirol, from 02/02/2026-05/02/2026.
-  The registration is already closed.
-  We wish you all a safe travel and are looking forward to a great and safe conference.
+blurb: "This is the official homepage of the DQML (Dynamics, Quantum Effects and Machine Learning in Materials Science and Computational Chemistry) 2026 conference organised jointly by the Imperial College London, University of Warwick, University of Vienna, and University of Nottingham, to be held in Austria, St. Johann in Tirol, from 02/02/2026-05/02/2026.<br><br> The registration is now closed.<br><br>We wish you all a safe travel and are looking forward to a great and safe conference."
 blurb-btn-link: '/location'
 blurb-btn-name: Location of the hotel
 
