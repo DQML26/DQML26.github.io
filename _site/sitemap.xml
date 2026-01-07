@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/about.html</loc>
+<loc>/about.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/contact.html</loc>
+<loc>/contact.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/location.html</loc>
+<loc>/location.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/schedule.html</loc>
+<loc>/schedule.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/speakers.html</loc>
+<loc>/speakers.html</loc>
 </url>
 </urlset>

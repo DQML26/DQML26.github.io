@@ -85,6 +85,7 @@ $blockLengths: 1, 2, 3, 4;
   font-size: 16px;
   font-weight: bold;
   line-height: 1.4;
+  color: #000000;
   
   span {
     display: block;
@@ -111,10 +112,11 @@ $blockLengths: 1, 2, 3, 4;
   .left{text-align: left;}
 
   &.stage-arrival {background-color: #f3f3ed};
-  &.stage-opening {background-color: #9ccc65};
-  &.stage-break {background-color: #b3e5fc};
-  &.stage-session-type-1 {background-color: #ff8a65};
-  &.stage-session-type-2 {background-color: #26c7da};
-  &.stage-session-type-3 {background-color: #81d4fa};
+  &.stage-opening {background-color: #94b370};
+  &.stage-break {background-color: #a7cdde};
+  &.stage-open {background-color: #9e9e9e};
+  &.stage-session-type-1 {background-color: #f1805e};
+  &.stage-session-type-2 {background-color: #f8ba5c};
+  &.stage-session-type-3 {background-color: #70a0d7};
   &.stage-session-type-4 {background-color: #ffa726};
 }
