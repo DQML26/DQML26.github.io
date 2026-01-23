@@ -29,8 +29,16 @@
         function formatTimeClass(timeStr) {
           if (!timeStr) return '';
           const [hours, minutes] = timeStr.split(':');
-          // Remove leading zeros from hours
           const hoursNum = parseInt(hours, 10);
+          const minutesNum = parseInt(minutes, 10);
+          const totalMinutes = hoursNum * 60 + minutesNum;
+          
+          // Collapse times between 11:30 and 16:00 to 11:00 slot
+          if (totalMinutes > 11 * 60 && totalMinutes < 16 * 60 + 30) {
+            return '1100';
+          }
+          
+          // Remove leading zeros from hours
           return hoursNum + minutes;
         }
         
@@ -240,7 +248,7 @@
         // Add fixed schedule items (breaks, meals, arrival, departure)
         const fixedItems = [
           // Monday
-          { day: '2', start: '800', end: '1600', class: 'stage-arrival', text: 'Arrival' },
+          { day: '2', start: '800', end: '1100', class: 'stage-arrival', text: 'Arrival' },
           { day: '2', start: '1830', end: '1930', class: 'stage-break', text: 'Dinner' },
           
           // Tuesday  
@@ -259,7 +267,7 @@
           
           // Thursday
           { day: '5', start: '800', end: '800', class: 'stage-break', text: 'Breakfast' },
-          { day: '5', start: '1030', end: '2200', class: 'stage-arrival', text: 'Departure' }
+          { day: '5', start: '1030', end: '2130', class: 'stage-arrival', text: 'Departure' }
         ];
         
         fixedItems.forEach(item => {
