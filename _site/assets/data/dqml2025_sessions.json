@@ -1,0 +1,947 @@
+[
+  {
+    "ID": "3P8UHQ",
+    "Proposal title": "Ross Amory \u2013\u00a0Q4Bio: Quantum Computing for Covalent Inhibitors",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Poster"
+    },
+    "Tags": [
+      "Nottingham"
+    ],
+    "Abstract": "Covalent inhibitors have emerged as a powerful class of therapeutics due to their high potency and enhanced specificity to drug targets. Their design remains challenging because covalent bond formation involves complex electronic rearrangements and rare reactive events that are difficult to capture using classical simulation approaches. In this work, we present a quantum-enhanced computational framework for modeling covalent inhibition mechanisms that integrates a novel quantum-enhanced DFT functional into existing multiscale molecular simulation methods, such as quantum mechanical/ molecular mechanics (QM/MM) umbrella sampling simulations. Reactive regions encompassing the inhibitor warhead and target nucleophile are treated at the quantum level, while the surrounding protein and solvent environment are described using molecular mechanics, enabling an accurate yet computationally tractable representation of the system.To characterize the free-energy landscape of covalent bond formation, we employ QM/MM umbrella sampling along carefully chosen reaction coordinates that describe bond formation and proton transfer events. Quantum computing is leveraged to solve the underlying electronic structure problem for the QM region, providing improved treatment of strongly correlated electronic states encountered along the reaction pathway. The resulting free-energy profiles yield activation barriers and relative binding free energies that are crucial for predicting the potency of any new drug candidates.We discuss the current \u201cstate-of-the-art\u201c in quantum simulation of molecular systems, and discuss the current limitations that are holding back the frontier of quantum computations. We also propose a novel method for reducing circuit complexity, which could allow for more accurate simulations on current noisy intermediate scale quantum (NISQ) devices.",
+    "Duration": 60,
+    "Room": {
+      "en": "Poster session"
+    },
+    "Start (date)": "2026-02-02",
+    "Start (time)": "21:00:00",
+    "End (date)": "2026-02-02",
+    "End (time)": "22:00:00"
+  },
+  {
+    "ID": "3UPNYE",
+    "Proposal title": "Victor Naden Robinson \u2013 Mapping the Frenkel and Widom lines in Methane with foundational model: MACE- OFF-24",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Poster"
+    },
+    "Tags": [
+      "Nottingham"
+    ],
+    "Abstract": "The physics governing the evolution from gas to liquid to close-packed liquids has long been debated, yet recently more physical observables have been realized along these thermodynamic paths[1]. We present molecular dynamics simulations of pure methane across a broad range of pressures and temperatures spanning the supercritical regime, with the aim of characterising dynamical crossovers beyond the critical point. Using a machine-learning interatomic potential, MACE-OFF-24[2], we generate long, well-equilibrated trajectories that enable robust analysis of transport properties as a function of pressure and temperature. The self-diffusion coefficient exhibits distinct changes in pressure dependence that are consistent with two separate supercritical boundaries: a low-pressure anomaly associated with Widom-line behaviour (~0.006 GPa) and a higher-pressure crossover indicative of a Frenkel-line transition (~0.07 GPa) from liquid-like to compact-liquid-like dynamics. This transition pressures are in good agreement with recent experiments[1] and diffusion coefficients become close to observed values once applying the Yeh-Hummer finite-size correction[3].\r\n\r\n[1] Ranieri, U., Formisano, F., Gorelli, F.A. et al. Crossover from gas-like to liquid-like molecular diffusion in a simple supercritical fluid. Nat Commun 15, 4142 (2024). https://doi.org/10.1038/s41467-024-47961-7\r\n[2] Kov\u00e1cs, D\u00e1vid P\u00e9ter, et al. \"\"Mace-off: Short-range transferable machine learning force fields for organic molecules.\"\" Journal of the American Chemical Society 147.21 (2025): 17598-17611. https://pubs.acs.org/doi/10.1021/jacs.4c07099\r\n[3] Yeh, In-Chul, and Gerhard Hummer. \"\"System-size dependence of diffusion coefficients and viscosities from molecular dynamics simulations with periodic boundary conditions.\"\" The Journal of Physical Chemistry B",
+    "Duration": 60,
+    "Room": {
+      "en": "Poster session"
+    },
+    "Start (date)": "2026-02-02",
+    "Start (time)": "21:00:00",
+    "End (date)": "2026-02-02",
+    "End (time)": "22:00:00"
+  },
+  {
+    "ID": "7NB9RG",
+    "Proposal title": "Johan Runeson",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Invited talk"
+    },
+    "Tags": null,
+    "Abstract": "asd",
+    "Duration": 60,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-02",
+    "Start (time)": "17:30:00",
+    "End (date)": "2026-02-02",
+    "End (time)": "18:30:00"
+  },
+  {
+    "ID": "8JGFNM",
+    "Proposal title": "Nils Hertl \u2013\u00a0First-principles construction of Newns-Anderson Hamiltonians for hydrogen chemistry at surfaces",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Poster"
+    },
+    "Tags": [
+      "Warwick"
+    ],
+    "Abstract": "Adsorption of atomic and molecular hydrogen on surfaces is the gateway to many important chemical processes in nature. For realistic simulations of adsorption of hydrogen atoms or molecules at metal surfaces, or light-driven desorption, accurate couplings between the gaseous particles and the substrate\u2019s electronic states are essential. However, their acquisition and utilisation for molecular dynamics is not straightforward if one wishes to account for the spectral properties of the substrate.\r\n\r\nHere, we present a pragmatic protocol based on the projection-operator diabatisation (POD) approach that allows the acquisition of electronic couplings between adsorbate and metallic substrates. Since the POD approach relies on partitioning the states of the total system into an adsorbate subset and a substrate subset, it has primarily been applied to weakly interacting systems, whilst its applicability to strongly interacting systems has been questioned. Here, we will present a strategy to overcome this issue and apply our workflow to strongly interacting systems, i.e., atomic hydrogen adsorbed on metal surfaces. We show that we can verify the validity of this projection by reconstructing the projected density of states of the adsorbate and extracting electron-tunnelling rates. We further connect these electronic couplings to vibrational relaxation rates due to electron-hole pair (ehp) excitation. This allows us to compare our acquired results to pump-probe experiments} and computational reference data acquired from density functional theory based time-dependent perturbation theory. \r\n\r\nFinally, we outline how this approach allows for the construction of Newns-Anderson Hamiltonians, the standard model in gas-surface dynamics, to describe the interaction of a single adsorbate state with a continuum of metal states.",
+    "Duration": 60,
+    "Room": {
+      "en": "Poster session"
+    },
+    "Start (date)": "2026-02-02",
+    "Start (time)": "21:00:00",
+    "End (date)": "2026-02-02",
+    "End (time)": "22:00:00"
+  },
+  {
+    "ID": "8KENDT",
+    "Proposal title": "Victor Naden Robinson \u2013 Crystal structure prediction with foundational models: Application to lead phosphate",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Contributed talk"
+    },
+    "Tags": [
+      "Contributed talks",
+      "Nottingham"
+    ],
+    "Abstract": "Crystal structure prediction (CSP) depends on reliable energy evaluations of potential\r\nenergy surfaces for a given material. Conventional DFT methods are recently being\r\nreplaced machine-learned potentials and now even foundational models, allowing for\r\nrapid exploration of these complex energetic landscapes. However, due to the unphysical\r\nand anti-chemical nature of many structures that are generated for CSP, not all\r\nfoundational models are suitable for such workflows. Here, we apply a foundational-\r\nmodel-based CSP workflow to the lead phosphate system, we are able to recover and\r\nconfirm the ground state structure for Pb3(PO4)2 is a rarely observed C2/c structure (we\r\nname \u0263), as opposed to another C2/c structure (\u0251) commonly found at room\r\ntemperature. Structure searching results for the Pb3(PO4)2 composition confirm that\r\nthese are the lowest energy phases. Notably, the \u0251 phase was found more frequently in\r\nsearches than the rarely observed (\u0263) phase, similar to its experimental occurrence where\r\nit has only been observed once [1].\r\n\r\n[1] E.L. Belokoneva, O.A. Gurbanova, O.V. Dimitrova, Zhurnal Neorganicheskoi Khimii, 2000, 45, 1448",
+    "Duration": 20,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-04",
+    "Start (time)": "10:00:00",
+    "End (date)": "2026-02-04",
+    "End (time)": "10:20:00"
+  },
+  {
+    "ID": "A7HNDZ",
+    "Proposal title": "Xuexun Lu \u2013 Newns-Anderson model Hamiltonian for nonadiabatic H atom scattering on Ge(111)",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Poster"
+    },
+    "Tags": [
+      "Warwick"
+    ],
+    "Abstract": "My poster is in the black poster tube in G block. Can one of the G block people take it to Austria please?",
+    "Duration": 60,
+    "Room": {
+      "en": "Poster session"
+    },
+    "Start (date)": "2026-02-02",
+    "Start (time)": "21:00:00",
+    "End (date)": "2026-02-02",
+    "End (time)": "22:00:00"
+  },
+  {
+    "ID": "ALJUSG",
+    "Proposal title": "Danjo De Chavez \u2013 TBD Something electronic structure",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Contributed talk"
+    },
+    "Tags": [
+      "Contributed talks",
+      "Warwick"
+    ],
+    "Abstract": "TBD",
+    "Duration": 20,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-05",
+    "Start (time)": "08:30:00",
+    "End (date)": "2026-02-05",
+    "End (time)": "08:50:00"
+  },
+  {
+    "ID": "APLDEX",
+    "Proposal title": "Connor Williamson \u2013 Machine-Learned Phase Prediction of Mixed-Halide Perovskites at Finite Temperature",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Contributed talk"
+    },
+    "Tags": [
+      "Contributed talks",
+      "Nottingham"
+    ],
+    "Abstract": "Halide perovskites exhibit exceptional optoelectronic properties critical for the next generation of photovoltaics and energy storage. However, these properties are highly phase-dependent, and the most desirable phases are often metastable at room temperature. Predicting phase stability computationally is challenging; the regular presence of heavy atomic species in halide perovskites increases the already expensive cost of ab initio\r\ntreatments, making traditional molecular dynamics at realistic timescales computationally prohibitive.\r\n\r\nIn this work, we present a high-throughput computational workflow that utilizes Machine-Learned Force Fields (MLFFs) to map the phase space of mixed-halide perovskites at room temperature. We employ an active learning scheme to curate a robust training dataset, upon which both foundational and de novo MLFFs are trained to achieve ab initio accuracy at a fraction of the computational cost. By the utilizing this MLFF and performing finite-\r\ntemperature structural dynamics, we extract key structural descriptors to train a classification model capable of predicting the stable phase of candidate materials from a perovskites stoichiometry and other readily available data, such as ionic radii and both structural and machine-learned tolerance factors. The resulting 2D phase map provides a rapid, cost- effective tool for experimentalists to identify stable, high-performance perovskite compositions without the need for exhaustive first-principles calculations.",
+    "Duration": 20,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-03",
+    "Start (time)": "17:30:00",
+    "End (date)": "2026-02-03",
+    "End (time)": "17:50:00"
+  },
+  {
+    "ID": "AY9KZZ",
+    "Proposal title": "Viktor Ellingsson\u00a0\u2013 TBD MLFF's, Li-ion conductors",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Contributed talk"
+    },
+    "Tags": [
+      "Contributed talks",
+      "Imperial"
+    ],
+    "Abstract": "TBD",
+    "Duration": 20,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-03",
+    "Start (time)": "18:10:00",
+    "End (date)": "2026-02-03",
+    "End (time)": "18:30:00"
+  },
+  {
+    "ID": "BSXDZE",
+    "Proposal title": "Xuexun Lu \u2013 Introduction of memory induced electronic friction in nonadiabatic dynamics for scattering",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Contributed talk"
+    },
+    "Tags": [
+      "Contributed talks",
+      "Warwick"
+    ],
+    "Abstract": "TBD",
+    "Duration": 20,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-02",
+    "Start (time)": "20:40:00",
+    "End (date)": "2026-02-02",
+    "End (time)": "21:00:00"
+  },
+  {
+    "ID": "CNZEVL",
+    "Proposal title": "Federico Ottomano \u2013 TBD Machine Learning development, molecular structure elucidation from spectra, LLMs",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Contributed talk"
+    },
+    "Tags": [
+      "Contributed talks",
+      "Imperial"
+    ],
+    "Abstract": "tbd",
+    "Duration": 20,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-03",
+    "Start (time)": "21:00:00",
+    "End (date)": "2026-02-03",
+    "End (time)": "21:20:00"
+  },
+  {
+    "ID": "CRKR9Z",
+    "Proposal title": "Closing session",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Other schedule items"
+    },
+    "Tags": [
+      "Other schedule items"
+    ],
+    "Abstract": "This is the end of the conference. We should probably take a group photo.",
+    "Duration": 60,
+    "Room": null,
+    "Start (date)": "2026-02-05",
+    "Start (time)": "09:30:00",
+    "End (date)": "2026-02-05",
+    "End (time)": "10:30:00"
+  },
+  {
+    "ID": "DHX7JL",
+    "Proposal title": "Alexander Spears \u2013 Electronic friction simulations of laser-driven hydrogen desorption from copper: Is it just thermal desorption in a hurry?",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Poster"
+    },
+    "Tags": [
+      "Warwick"
+    ],
+    "Abstract": "Ultrafast light pulses can induce energy transfer between light, electrons, and phonons at interfaces, leading to ultrafast dynamics such as light-driven hydrogen evolution from metal surfaces. \r\nWhether this energy transfer can drive photocatalysis through selective energy transfer into certain degrees of freedom remains an open question. \r\nMolecular dynamics simulations with electronic friction (MDEF) offer a quantum-classical description of electron-phonon coupling and have previously been used to model ultrafast surface dynamics. \r\nHowever, the effect of different electronic friction approximations on the final energy distributions has not been thoroughly investigated. \r\nWe present MDEF simulations of light-driven hydrogen evolution from different copper surface facets, enabled by machine-learning surrogate models. \r\nFor various laser fluences, we study desorption probabilities and final state distributions of desorbed molecules.\r\nOur results reveal that the choice of electronic friction approximation significantly affects desorption probabilities. \r\nHowever, the magnitude and nature of friction do not seem to affect the final vibrational, rotational, and translational energy distribution of molecular adsorbates. Within the electronic friction approximation, only the shape of the energy landscape determines these properties and no selective energy transfer occurs. This suggests that thermal and laser-driven desorption may yield similar outcomes.",
+    "Duration": 60,
+    "Room": null,
+    "Start (date)": null,
+    "Start (time)": null,
+    "End (date)": null,
+    "End (time)": null
+  },
+  {
+    "ID": "DNVEUL",
+    "Proposal title": "Ruiqi Wu \u2013 TBD DFT, energy materials, high-throughput screening, photovoltaics, thermoelectrics, transparent conductors",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Contributed talk"
+    },
+    "Tags": [
+      "Contributed talks",
+      "Imperial"
+    ],
+    "Abstract": "TBD",
+    "Duration": 20,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-05",
+    "Start (time)": "08:50:00",
+    "End (date)": "2026-02-05",
+    "End (time)": "09:10:00"
+  },
+  {
+    "ID": "E9RPNS",
+    "Proposal title": "Poster Session",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Other schedule items"
+    },
+    "Tags": [
+      "Other schedule items"
+    ],
+    "Abstract": "# Poster session: \r\n\r\n| Participant name      | Institution | Poster title                                                                                              | Poster abstract                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |   |\r\n|-----------------------|-------------|-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|\r\n| Alex Spears           | Vienna      | I think it's a paper aeroplane now                                                                        | but I should print it again                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |   |\r\n| Ash Baldwin           | Vienna      | Beyond mean-field energy loss in non-adiabatic surface scattering                                         | We apply beyond mean-field nonadiabtic dynamics methods to assess the influence of intra-atomic Coulomb interactions on the hyperthermal scattering of hydrogen from metal surfaces                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |   |\r\n| Liz Hawkins           | Nottingham  | layered lanthanum oxyhalides for high k applications                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |   |\r\n| Ross Amory            | Nottingham  | Q4Bio: Quantum Computing for Covalent Inhibitors                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |   |\r\n| Caitlin Lewis         | Nottingham  | Quantum Computing for the Study of Exciton Dynamics                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |   |\r\n| Connor Williamson     | Nottingham  | Discovery of Novel Lanthanide Colour Centres in Lanthanum Oxyhalide 2D Materials for Quantum Technologies |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |   |\r\n| Shay Chaudhuri        | Nottingham  | Calculating Covalent Inhibition Using Quantum Chemistry, Hybrid QM/MM and Quantum Computing               | Covalent drug design presents a challenging frontier for conventional computational resources. The system size typically needed to study ligand-protein binding limits the applicability of high-level ab initio methods, and concessions must be made via various approximations. This bottleneck limits progress in the burgeoning field of covalent drug design. We have used high-level quantum chemistry calculations to characterise the addition of methanethiolate to various Michael acceptors and investigated the structural, energetic, and electronic properties of the resulting enolates, as well as their reaction profiles. To assess the influence of the receptor protein on the binding thermodynamics, we are studying covalent inhibitors in complex with the protein CDK12 using hybrid QM/MM calculations. The most forward-looking part of our work is the opportunity to use quantum computing to model molecular interactions for drug discovery, and we are working on a novel pathway to quantum-enhanced computations of covalent inhibitors on near-term quantum devices. |   |\r\n| Victor Naden Robinson | Nottingham  |                                                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |   |\r\n| Saffron Luxford       | Nottingham  | Machine Learned Force Fields for HZO: A GRACE Framework Approach                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |   |\r\n| Xuexun Lu             | Warwick     | Newns-Anderson model Hamiltonian for nonadiabatic H atom scattering on Ge(111)                            | My poster is in the black poster tube in G block. Can one of the G block people take it to Austria please?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |   |",
+    "Duration": 60,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-02",
+    "Start (time)": "21:00:00",
+    "End (date)": "2026-02-02",
+    "End (time)": "22:00:00"
+  },
+  {
+    "ID": "EK9PF7",
+    "Proposal title": "Leo Lou \u2013 TBD Equivariant GNNs, Diffusion, Generative AI",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Contributed talk"
+    },
+    "Tags": [
+      "Contributed talks",
+      "Imperial"
+    ],
+    "Abstract": "TBD",
+    "Duration": 20,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-04",
+    "Start (time)": "17:30:00",
+    "End (date)": "2026-02-04",
+    "End (time)": "17:50:00"
+  },
+  {
+    "ID": "FQ9ASD",
+    "Proposal title": "Wojciech Stark\u00a0\u2013\u00a0Discovery and Optimisation of Porous Liquid Catalysts for CO2 Utilisation",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Contributed talk"
+    },
+    "Tags": [
+      "Contributed talks",
+      "Imperial"
+    ],
+    "Abstract": "TBD",
+    "Duration": 20,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-03",
+    "Start (time)": "17:50:00",
+    "End (date)": "2026-02-03",
+    "End (time)": "18:10:00"
+  },
+  {
+    "ID": "GFCBZC",
+    "Proposal title": "Saffron Luxford \u2013 Developing GRACE Machine Learning Force Fields for Hafnium Zirconium Oxide Ferroelectric Simulations",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Poster"
+    },
+    "Tags": [
+      "Nottingham"
+    ],
+    "Abstract": "\"Hafnium zirconium oxide (HZO) is a promising ferroelectric material for next-generation memory devices, but understanding its atomic-scale behaviour requires simulations that are currently too computationally expensive with traditional density functional theory (DFT) methods. The complex interplay between oxygen vacancies and ferroelectric polarisation in HZO demands large-scale molecular dynamics simulations spanning thousands of atoms and nanosecond timescales well beyond the reach of standard ab initio approaches.\r\n\r\nThis work proposes developing machine learned force fields using the GRACE framework to enable efficient, accurate simulations of HZO systems. The approach involves training GRACE models on DFT datasets that capture key HZO configurations, including pristine orthorhombic structures and oxygen-deficient systems with varying vacancy concentrations. The goal is to achieve near-DFT accuracy whilst providing the computational speedup necessary for device-scale simulations. The successful development of accurate GRACE force fields for HZO would enable molecular dynamics studies of larger systems over longer timescales, providing insights into vacancy-induced dynamics and polarisation stability that are crucial for optimising HZO-based devices.\"",
+    "Duration": 60,
+    "Room": {
+      "en": "Poster session"
+    },
+    "Start (date)": "2026-02-02",
+    "Start (time)": "21:00:00",
+    "End (date)": "2026-02-02",
+    "End (time)": "22:00:00"
+  },
+  {
+    "ID": "JTSKWL",
+    "Proposal title": "Shay Chaudhuri \u2013 Calculating Covalent Inhibition Using Quantum Chemistry, Hybrid QM/MM and Quantum Computing",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Poster"
+    },
+    "Tags": [
+      "Nottingham"
+    ],
+    "Abstract": "Covalent drug design presents a challenging frontier for conventional computational resources. The system size typically needed to study ligand-protein binding limits the applicability of high-level ab initio methods, and concessions must be made via various approximations. This bottleneck limits progress in the burgeoning field of covalent drug design. We have used high-level quantum chemistry calculations to characterise the addition of methanethiolate to various Michael acceptors and investigated the structural, energetic, and electronic properties of the resulting enolates, as well as their reaction profiles. To assess the influence of the receptor protein on the binding thermodynamics, we are studying covalent inhibitors in complex with the protein CDK12 using hybrid QM/MM calculations. The most forward-looking part of our work is the opportunity to use quantum computing to model molecular interactions for drug discovery, and we are working on a novel pathway to quantum-enhanced computations of covalent inhibitors on near-term quantum devices.",
+    "Duration": 60,
+    "Room": {
+      "en": "Poster session"
+    },
+    "Start (date)": "2026-02-02",
+    "Start (time)": "21:00:00",
+    "End (date)": "2026-02-02",
+    "End (time)": "22:00:00"
+  },
+  {
+    "ID": "L3TG93",
+    "Proposal title": "Ross Amory \u2013 Quantum Computing for Quantum Chemistry",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Contributed talk"
+    },
+    "Tags": [
+      "Contributed talks",
+      "Nottingham"
+    ],
+    "Abstract": "Classical computers struggle with the inherent complexity of simulating quantum systems, especially in chemistry, where capturing phenomena such as electron correlation is challenging using classical approaches. This presentation investigates how quantum computing can be used to address some of the limitations of classical algorithms and capture traditionally difficult-to-simulate phenomena such as electron correlation.\r\nWe focus on how quantum algorithms can tackle fundamental problems in quantum chemistry, such as determining accurate ground state energies and modelling reaction dynamics. The discussion includes practical hurdles that need to be overcome in order for the field to become useful. Examples of current research employing techniques such as variational quantum algorithms on near-term quantum hardware will also be discussed to provide an insight into the direction in which the field is currently evolving.",
+    "Duration": 20,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-03",
+    "Start (time)": "10:00:00",
+    "End (date)": "2026-02-03",
+    "End (time)": "10:20:00"
+  },
+  {
+    "ID": "L7YKTU",
+    "Proposal title": "Tom Irons \u2013 Discovery of Novel Lanthanide Colour Centres in Lanthanum Oxyhalide 2D Materials for Quantum Technologies",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Contributed talk"
+    },
+    "Tags": [
+      "Contributed talks",
+      "Nottingham"
+    ],
+    "Abstract": "Solid-state colour centres\u2014optically active spin defects in wide bandgap semiconductors\u2014are a promising platform for qubits, the building blocks of quantum technologies; however, challenges remain to their wider application, including low quantum coherence and difficulties engineering spin defects in different semiconductor hosts. Lanthanide colour centres hold particular promise for the development of spin qubits since their partially occupied 4f subshells are highly shielded from environmental perturbations, potentially offering high quantum coherence. In this work, we investigate a novel class of colour centre, lanthanide substitutional defects in the lanthanum oxyhalide (LaOX) materials. The lanthanum oxyhalides LaOCl and LaOBr are wide bandgap 2D semiconductors stable at room temperature and transparent to visible light, ideal properties as semiconductor hosts for colour centres. We deploy a combination of advanced density functional theory (DFT) and multiconfigurational wavefunction methodology to model the electronic, optical, and magnetic properties lanthanide substitutional defects in LaOCl and LaOBr, identifying equilibrium structures corresponding to their most stable electronic charge and spin states through solid-state DFT. We further employ multireference and quasi-degenerate perturbation theories on the local defect environments, essential for accurately representing the strongly correlated ground and excited electronic states of lanthanides, to evaluate their zero-phonon lines and zero-field splitting parameters to predict colour centres with optical activity at telecom-band wavelengths and those for which their spin states may be coherently manipulated via microwave radiation. The discovery of lanthanide colour centres satisfying these criteria is expected to be a significant breakthrough in the search for novel spin qubits with high coherence, enabling the development of next-generation quantum technologies.",
+    "Duration": 20,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-03",
+    "Start (time)": "10:40:00",
+    "End (date)": "2026-02-03",
+    "End (time)": "11:00:00"
+  },
+  {
+    "ID": "LH8KPT",
+    "Proposal title": "Ash Baldwin \u2013\u00a0Dynamics beyond the mean field: Nonadiabatic energy loss in hyperthermal gas-surface scattering",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Poster"
+    },
+    "Tags": [
+      "Vienna"
+    ],
+    "Abstract": "We apply beyond mean-field nonadiabtic dynamics methods to assess the influence of intra-atomic Coulomb interactions on the hyperthermal scattering of hydrogen from metal surfaces",
+    "Duration": 60,
+    "Room": {
+      "en": "Poster session"
+    },
+    "Start (date)": "2026-02-02",
+    "Start (time)": "21:00:00",
+    "End (date)": "2026-02-02",
+    "End (time)": "22:00:00"
+  },
+  {
+    "ID": "MLM3PX",
+    "Proposal title": "Lukas H\u00f6rmann \u2013 Understanding the thermodynamics of defective graphene",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Contributed talk"
+    },
+    "Tags": [
+      "Contributed talks",
+      "Warwick"
+    ],
+    "Abstract": "TBD",
+    "Duration": 20,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-04",
+    "Start (time)": "10:40:00",
+    "End (date)": "2026-02-04",
+    "End (time)": "11:00:00"
+  },
+  {
+    "ID": "NAJMFV",
+    "Proposal title": "Discussion Session: Round 2",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Other schedule items"
+    },
+    "Tags": [
+      "Other schedule items"
+    ],
+    "Abstract": "# Discussion session\r\n- ML data storage and lifecycle\r\n- Where is ML worth doing? Where isn't it?\r\n- what are the most exciting frontiers for ML?\r\n\r\nThese are just some of the questions we'll be talking about in this open discussion round. \r\n\r\nSomething bla bla about structure / how it's organised.",
+    "Duration": 60,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-04",
+    "Start (time)": "20:00:00",
+    "End (date)": "2026-02-04",
+    "End (time)": "21:00:00"
+  },
+  {
+    "ID": "NFZQA3",
+    "Proposal title": "Shay Chaudhuri: Multiplet structure of chromium(III) dopants in wide band gap materials",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Contributed talk"
+    },
+    "Tags": [
+      "Contributed talks",
+      "Nottingham"
+    ],
+    "Abstract": "Transition metal doping is commonly used for altering the properties of solid-state materials to suit applications in science and technology. Partially filled d-shells of transition metal atoms lead to electronic states with diverse spatial and spin symmetries. Chromium(III) cations have shown great potential for designing laser materials and, more recently, for developing spin qubits in quantum applications. They also represent an intriguing class of chemical systems with strongly correlated multi-reference excited states, due to the d\u00b3 electron configuration. These states are difficult to describe accurately using single-reference quantum chemical methods such as density functional theory (DFT), the most commonly used method to study the electronic structures of solid-state systems. Recently, the periodic effective Hamiltonian of crystal field (pEHCF) method has been shown to overcome some limitations arising in the calculations of excited d-states. In this work, we assess the suitability of DFT and pEHCF to calculate the electronic structure and d-d excitations of chromium(III) dopants in wide band gap host materials. The results will aid computational development of novel transition metal-doped materials and provide a deeper understanding of the complex nature of transition metal dopants in solids.",
+    "Duration": 20,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-05",
+    "Start (time)": "09:10:00",
+    "End (date)": "2026-02-05",
+    "End (time)": "09:30:00"
+  },
+  {
+    "ID": "P78HK7",
+    "Proposal title": "Opening",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Other schedule items"
+    },
+    "Tags": [
+      "Other schedule items"
+    ],
+    "Abstract": "Conference opening, round of introductions, a bit of enforced fun getting to know people.",
+    "Duration": 60,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-02",
+    "Start (time)": "16:30:00",
+    "End (date)": "2026-02-02",
+    "End (time)": "17:30:00"
+  },
+  {
+    "ID": "PD7VAH",
+    "Proposal title": "PowerPoint Karaoke",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Other schedule items"
+    },
+    "Tags": [
+      "Other schedule items"
+    ],
+    "Abstract": "Time for the best conference talk you've ever given, there's only one tiny problem: You've never seen the slides you will present before!",
+    "Duration": 60,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-04",
+    "Start (time)": "21:00:00",
+    "End (date)": "2026-02-04",
+    "End (time)": "22:00:00"
+  },
+  {
+    "ID": "PHE7TB",
+    "Proposal title": "Caitlin Lewis \u2013 Quantum Computing for the Study of Exciton Dynamics",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Poster"
+    },
+    "Tags": [
+      "Nottingham"
+    ],
+    "Abstract": ".",
+    "Duration": 60,
+    "Room": {
+      "en": "Poster session"
+    },
+    "Start (date)": "2026-02-02",
+    "Start (time)": "21:00:00",
+    "End (date)": "2026-02-02",
+    "End (time)": "22:00:00"
+  },
+  {
+    "ID": "PMSF3N",
+    "Proposal title": "Chen Qian \u2013 TBD ML methods",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Contributed talk"
+    },
+    "Tags": [
+      "Contributed talks",
+      "Warwick"
+    ],
+    "Abstract": "TBD",
+    "Duration": 20,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-03",
+    "Start (time)": "21:20:00",
+    "End (date)": "2026-02-03",
+    "End (time)": "21:40:00"
+  },
+  {
+    "ID": "PTX73C",
+    "Proposal title": "Connor Williamson \u2013 Screening the stability and optoelectronic properties of mixed halide perovskites at finite temperatures",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Poster"
+    },
+    "Tags": [
+      "Nottingham"
+    ],
+    "Abstract": "\"Mixed halide perovskites present a wide compositional space for\r\nengineering functional semiconducting properties that can be\r\nleveraged in optoelectronic devices including photovoltaics, light\r\nemitting-diodes and coherent light sources. While the stability and\r\nproperties of single perovskites have been well-mapped, mixed\r\nperovskites present the challenge of complex tolerance factors and\r\nemergent properties from mixing in a combinatorially large phase\r\nspace. Here, we utilise machine learned force fields to\r\ncomputationally screen 1000\u2019s of mixed halide perovskites for\r\nformability and thermodynamic and dynamic stability. From this, we\r\nreveal patterns in combined octahedral tilts and rotations compared\r\nto unmixed phases. We further predict trends in emission spectra of\r\nstable mixed systems at finite temperatures. We anticipate that this\r\ndata-driven approach will accelerate the discovery and design of\r\nnext-generation perovskite materials for the realisation of more\r\nefficient and stable optoelectronic technologies.\"",
+    "Duration": 60,
+    "Room": {
+      "en": "Poster session"
+    },
+    "Start (date)": "2026-02-02",
+    "Start (time)": "21:00:00",
+    "End (date)": "2026-02-02",
+    "End (time)": "22:00:00"
+  },
+  {
+    "ID": "R8JKER",
+    "Proposal title": "Liz Hawkins \u2013 layered lanthanum oxyhalides for high k applications",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Poster"
+    },
+    "Tags": [
+      "Nottingham"
+    ],
+    "Abstract": "\"Silicon-based dielectrics are reaching scaling limits in semiconductor microelectronics. As transistors shrink to the atomic scale, quantum tunnelling and leakage currents become significant challenges, limiting further miniaturisation. New materials with superior properties are required to overcome this bottleneck. \r\n\r\nLanthanum oxyhalides (LaOX, X = F, Cl, Br, I) have recently been identified as promising materials due to their high dielectric constant (k), wide bandgap and chemical stability. As layered van der Waals materials (vdW), they are able to retain these properties even at low dimensions.\r\n\r\nThis poster explores the structural, electronic and dielectric properties of LaOX using density functional theory (DFT). By first understanding how well density functional approximations (DFA\u2019s) capture the properties of LaOX, we will be able to use DFT to further explore its applications in low-power devices and quantum technologies. \"",
+    "Duration": 60,
+    "Room": {
+      "en": "Poster session"
+    },
+    "Start (date)": "2026-02-02",
+    "Start (time)": "21:00:00",
+    "End (date)": "2026-02-02",
+    "End (time)": "22:00:00"
+  },
+  {
+    "ID": "RNPXXN",
+    "Proposal title": "Sean Kavanagh",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Invited talk"
+    },
+    "Tags": null,
+    "Abstract": "tbd",
+    "Duration": 60,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-04",
+    "Start (time)": "08:30:00",
+    "End (date)": "2026-02-04",
+    "End (time)": "09:30:00"
+  },
+  {
+    "ID": "SNYWEC",
+    "Proposal title": "Julia Westermayr",
+    "Proposal state": "canceled",
+    "Session type": {
+      "en": "Invited talk"
+    },
+    "Tags": null,
+    "Abstract": "tbd",
+    "Duration": 60,
+    "Room": null,
+    "Start (date)": null,
+    "Start (time)": null,
+    "End (date)": null,
+    "End (time)": null
+  },
+  {
+    "ID": "TUUSU8",
+    "Proposal title": "Caitlin Lewis \u2013\u00a0Quantum Methods to Study Exciton Dynamics",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Contributed talk"
+    },
+    "Tags": [
+      "Contributed talks",
+      "Nottingham"
+    ],
+    "Abstract": "Could quantum mechanics play a role in biological processes, such as photosynthesis? This presentation explores the quantum explanation for energy transport between chromophores in biological systems. Excitons, which are bound electron-hole pairs, may facilitate this energy transfer. I will present a method for studying exciton dynamics starting with tubulin, a protein with important biological roles related to structure, and explain why this problem is well-suited for quantum computing. Currently, only classical computing methods have been applied in this study. However, quantum computing offers a promising avenue for overcoming computational limitations, potentially enabling more accurate and efficient simulations of larger exciton systems in biological contexts.",
+    "Duration": 20,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-03",
+    "Start (time)": "10:20:00",
+    "End (date)": "2026-02-03",
+    "End (time)": "10:40:00"
+  },
+  {
+    "ID": "UD3TWN",
+    "Proposal title": "Henry Snowden \u2013 First-principles-derived Boltzmann transport study of hot electron generation efficiency in antenna-reactor photocatalysts",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Poster"
+    },
+    "Tags": [
+      "Warwick"
+    ],
+    "Abstract": "Bimetallic antenna-reactor nanoclusters are a promising material class for photocatalytic applications due to their ability to combine the optical absorption efficiency of a plasmonic metal and the reactivity of a transition-metal catalyst. These materials come in many different structures relating to the arrangement of the antenna and reactor components. Photocatalytic efficiency is determined by the hot carrier concentration created upon laser excitation and the ability to transfer such carriers to the reactant. Their prediction requires the ability so simulate non-equilibrium laser-driven electron dynamics and the interplay of electrons, phonons, and photons. Here, we employ a first-principles-parametrised Boltzmann transport method called AthEM [arXiv: 2503.09479], able to capture time- and space-resolved non-equilibrium electron populations in differing antenna-reactor structures. We compare the effective temperatures, electron distributions and phonon temperatures at the surface of the reactor material to support the design of  catalyst geometries that maximize hot carrier generation.",
+    "Duration": 60,
+    "Room": {
+      "en": "Poster session"
+    },
+    "Start (date)": "2026-02-02",
+    "Start (time)": "21:00:00",
+    "End (date)": "2026-02-02",
+    "End (time)": "22:00:00"
+  },
+  {
+    "ID": "URNMUA",
+    "Proposal title": "Henry Thake \u2013\u00a0Increasingly incoherent: The effect of adatoms on structure and characterisation of physisorbed molecules on Cu(111)",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Contributed talk"
+    },
+    "Tags": [
+      "Contributed talks",
+      "Warwick"
+    ],
+    "Abstract": "TBD",
+    "Duration": 20,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-04",
+    "Start (time)": "10:20:00",
+    "End (date)": "2026-02-04",
+    "End (time)": "10:40:00"
+  },
+  {
+    "ID": "VFMKGV",
+    "Proposal title": "Alex Spears \u2013 Light-driven hydrogen recombination from metal surfaces",
+    "Proposal state": "withdrawn",
+    "Session type": {
+      "en": "Contributed talk"
+    },
+    "Tags": [
+      "Contributed talks",
+      "Warwick"
+    ],
+    "Abstract": "TBD",
+    "Duration": 20,
+    "Room": null,
+    "Start (date)": null,
+    "Start (time)": null,
+    "End (date)": null,
+    "End (time)": null
+  },
+  {
+    "ID": "WF9NEF",
+    "Proposal title": "Discussion Session:\u00a0Round 1",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Other schedule items"
+    },
+    "Tags": [
+      "Other schedule items"
+    ],
+    "Abstract": "# Discussion session\r\n- ML data storage and lifecycle\r\n- Where is ML worth doing? Where isn't it?\r\n- what are the most exciting frontiers for ML?\r\n\r\nThese are just some of the questions we'll be talking about in this open discussion round. \r\n\r\nSomething bla bla about structure / how it's organised.",
+    "Duration": 60,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-03",
+    "Start (time)": "08:30:00",
+    "End (date)": "2026-02-03",
+    "End (time)": "09:30:00"
+  },
+  {
+    "ID": "XDDQ7L",
+    "Proposal title": "YC Wong \u2013 Machine Learning Multiscale Simulation for Defected Correlated Oxides",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Poster"
+    },
+    "Tags": [
+      "Warwick"
+    ],
+    "Abstract": "Poster broken when returning after Psi-K, need to reprint.",
+    "Duration": 60,
+    "Room": {
+      "en": "Poster session"
+    },
+    "Start (date)": "2026-02-02",
+    "Start (time)": "21:00:00",
+    "End (date)": "2026-02-02",
+    "End (time)": "22:00:00"
+  },
+  {
+    "ID": "XXTBPP",
+    "Proposal title": "Matt Larkin \u2013 Capturing light-driven non-equilibrium chemistry at surfaces (Part 1)",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Contributed talk"
+    },
+    "Tags": [
+      "Contributed talks",
+      "Warwick"
+    ],
+    "Abstract": "TBD",
+    "Duration": 20,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-02",
+    "Start (time)": "20:20:00",
+    "End (date)": "2026-02-02",
+    "End (time)": "20:40:00"
+  },
+  {
+    "ID": "XZMKTM",
+    "Proposal title": "Valdas Vitartas \u2013 Bridging electronic structure and machine learning at the operator level",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Contributed talk"
+    },
+    "Tags": [
+      "Contributed talks",
+      "Warwick"
+    ],
+    "Abstract": "The computational cost associated with first-principles materials simulations has motivated the progress of data-driven algorithms, such as machine learning (ML) interatomic potentials trained on electronic structure (ES) data. While such models can reproduce reference energies at a fraction of the cost, they typically cannot predict electronic properties. Alternatively, one can learn intermediate quantities from ES calculations, such as the self-consistent Hamiltonian from density functional theory. This yields ML models with stronger physics-based inductive bias and retained electronic degrees of freedom, enabling the prediction of electronic properties such as the band structure. However, tighter coupling between ES and ML necessitates the development of new data pipelines. This talk will introduce Quoll.jl, a julia package that can process and transfer quantum operator data between ES and ML codes while accounting for differing sparsity formats and spherical harmonics conventions. The code will be showcased by removing core states from bulk gold Hamiltonians generated with the FHI-aims ES package before converting them to a format compatible with the MACE-H ML model. To demonstrate the capability in the opposite direction, ML-predicted Hamiltonians will be passed back to FHI-aims for postprocessing, bypassing self-consistent-field iterations.",
+    "Duration": 20,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-03",
+    "Start (time)": "21:40:00",
+    "End (date)": "2026-02-03",
+    "End (time)": "22:00:00"
+  },
+  {
+    "ID": "Y8CMPD",
+    "Proposal title": "Matthias Sachs",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Invited talk"
+    },
+    "Tags": null,
+    "Abstract": "asd",
+    "Duration": 60,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-03",
+    "Start (time)": "20:00:00",
+    "End (date)": "2026-02-03",
+    "End (time)": "21:00:00"
+  },
+  {
+    "ID": "YNF9NV",
+    "Proposal title": "Henry Snowden \u2013 Capturing light-driven non-equilibrium chemistry at surfaces (Part 1)",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Contributed talk"
+    },
+    "Tags": [
+      "Contributed talks",
+      "Warwick"
+    ],
+    "Abstract": "TBD",
+    "Duration": 20,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-02",
+    "Start (time)": "20:00:00",
+    "End (date)": "2026-02-02",
+    "End (time)": "20:20:00"
+  },
+  {
+    "ID": "Z8ZWZH",
+    "Proposal title": "Saffron Luxford \u2013 Ferroelectric Hf\u2081\u208b\u2093Zr\u2093O\u2082 Thin Films: A Materials Challenge for Machine- Learned Interatomic Potentials",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Contributed talk"
+    },
+    "Tags": [
+      "Contributed talks",
+      "Nottingham"
+    ],
+    "Abstract": "Ferroelectric hafnia-based thin films have emerged as promising materials for nanoscale non-volatile memory and logic applications, combining ferroelectric behaviour with compatibility with silicon technology. Despite extensive experimental and theoretical effort, the microscopic origins of ferroelectricity in Hf\u2081\u208b\u2093Zr\u2093O\u2082 (HZO) remain incompletely understood. This is thought to be due to the complex interplay between composition, epitaxial strain, finite-size effects, interfacial chemistry, and defect formation, all of which influence the relative stability of closely competing polymorphs. Density functional theory (DFT) has provided valuable atomistic insight into these mechanisms, but its high computational cost limits simulations to relatively small system sizes. As a result, many phenomena central to achieving reliable ferroelectricity thin-film devices, such as realistic heterointerfaces,\r\nextended defects, domain structures, and strain gradients, remain difficult to\r\naccess directly. Machine-learned Force Fields (MLFFs) offer a promising route to\r\nbridge this gap, but their application to HZO poses significant challenges due to\r\nthe material\u2019s narrow energy landscape, and sensitivity to charged defects.\r\nIn this work, we develop MACE-based interatomic potentials for HZO trained on\r\nVASP DFT configurations at the PBE level of theory. We demonstrate that MACE\r\nmodels accurately reproduce structural parameters from geometry\r\noptimizations, enabling rapid exploration of composition-strain-structure\r\nrelationships.\r\nOur work demonstrates the potential of machine-learned force fields to\r\naccelerate exploration of structure-property relationships in complex oxide\r\nferroelectrics, providing a pathway to computational screening at scales beyond\r\nthe reach of conventional DFT while targeting quantitative accuracy for both\r\nstructural and electronic descriptors.",
+    "Duration": 20,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-04",
+    "Start (time)": "17:50:00",
+    "End (date)": "2026-02-04",
+    "End (time)": "18:10:00"
+  },
+  {
+    "ID": "ZK9NGM",
+    "Proposal title": "Mariia Radova: Fine-tuning foundation models of materials interatomic potentials with frozen transfer learning",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Contributed talk"
+    },
+    "Tags": [
+      "Contributed talks",
+      "Warwick"
+    ],
+    "Abstract": "Machine-learned interatomic potentials are revolutionising atomistic materials simulations by providing accurate and scalable predictions within the scope covered by the training data. However, generation of an accurate and robust training data set remains a challenge, often requiring thousands of first-principles calculations to achieve high accuracy. Foundation models have started to emerge with the ambition to create universally applicable potentials across a wide range of materials. While foundation models can be robust and transferable, they do not yet achieve the accuracy required to predict reaction barriers, phase transitions, and material stability. This work demonstrates that foundation model potentials can reach chemical accuracy when fine-tuned using transfer learning with partially frozen weights and biases. For two challenging datasets on reactive chemistry at surfaces and stability and elastic properties of tertiary alloys, we show that frozen transfer learning with 10\u201320% of the data (hundreds of datapoints) achieves similar accuracies to models trained from scratch (on thousands of datapoints). Moreover, we show that an equally accurate, but significantly more efficient surrogate model can be built using the transfer learned potential as the ground truth. In combination, we present a simulation workflow for machine learning potentials that improves data efficiency and computational efficiency.",
+    "Duration": 20,
+    "Room": {
+      "en": "Main conference room"
+    },
+    "Start (date)": "2026-02-04",
+    "Start (time)": "18:10:00",
+    "End (date)": "2026-02-04",
+    "End (time)": "18:30:00"
+  },
+  {
+    "ID": "ZPEQBN",
+    "Proposal title": "Shirui Wang \u2013 Fine-tuning universal force fields for rapid and accurate lattice thermal conductivity",
+    "Proposal state": "confirmed",
+    "Session type": {
+      "en": "Poster"
+    },
+    "Tags": [
+      "Imperial"
+    ],
+    "Abstract": "Lattice thermal conductivity (\u03bal) is a fundamental materials property that is vital for applications such thermoelectrics and power electronics. Over recent decades, predicting lattice thermal conductivity has primarily relied on classical molecular dynamics or first-principles calculations. However, these methods often suffer from insufficient accuracy or high computational costs. Recent advancements in universal machine learning models for materials offer a promising solution to these limitations. In this study, we conducted extensive calculations of \u03bal using three universal models and compared their performance against ab initio calculations for 25 zincblende and wurtzite compounds. Our findings indicate that all off-the-shelf models consistently underpredict phonon frequencies and thermal conductivity. However, we demonstrate that this phonon softening can be effectively addressed by fine-tuning with small amounts of additional data. In particular, the fine-tuned MACE-MP-0 model displays remarkable accuracy while requiring several orders of magnitude less computational cost than first-principles calculations. Our approach has the potential to significantly accelerate the materials discovery process",
+    "Duration": 60,
+    "Room": {
+      "en": "Poster session"
+    },
+    "Start (date)": "2026-02-02",
+    "Start (time)": "21:00:00",
+    "End (date)": "2026-02-02",
+    "End (time)": "22:00:00"
+  },
+  {
+    "ID": "ZTCYEL",
+    "Proposal title": "Ash Baldwin \u2013 Dynamics beyond the mean field: Nonadiabatic energy loss in hyperthermal gas-surface scattering",
+    "Proposal state": "withdrawn",
+    "Session type": {
+      "en": "Contributed talk"
+    },
+    "Tags": [
+      "Contributed talks",
+      "Warwick"
+    ],
+    "Abstract": "tbd",
+    "Duration": 20,
+    "Room": null,
+    "Start (date)": null,
+    "Start (time)": null,
+    "End (date)": null,
+    "End (time)": null
+  }
+]

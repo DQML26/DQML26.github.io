@@ -6,6 +6,8 @@ $blockLengths: 1, 2, 3, 4;
   display: grid;
   grid-gap: 0.5rem;
   padding: 2rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
   
   grid-template-columns: 5rem repeat(4, 1fr); 
   grid-template-rows: repeat(29, 0.5fr);
