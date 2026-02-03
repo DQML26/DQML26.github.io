@@ -168,7 +168,8 @@
               startTime: session['Start (time)'],
               endTime: session['End (time)'],
               type: 'plenary',
-              speaker: extractName(session['Proposal title'])
+              speaker: extractName(session['Proposal title']),
+              chair: session['Chair']
             });
           } else if (sessionType === 'Other schedule items') {
             eventsToCreate.push({
@@ -208,14 +209,18 @@
               e.type === 'plenary' && e.date <= event.date && 
               (e.date < event.date || e.startTime <= event.startTime)
             ).length;
-            div.innerHTML = `Plenary ${plenaryNum} <span>${event.speaker}</span>`;
+            const chairName = event.chair || '';
+            const chairText = chairName ? `<span>Chair: ${chairName}</span>` : '';
+            div.innerHTML = `Plenary ${plenaryNum} ${chairText}<span><strong>${event.speaker}</strong></span>`;
           } else if (event.type === 'contributed') {
             div.className += ' stage-session-type-1';
             const talkList = event.talks.map((talk, idx) => {
               const name = extractName(talk['Proposal title']);
               return `C${idx + 1}: ${name}`;
             }).join('<br>');
-            div.innerHTML = `Contributed talks (${event.talks.length}) <span>Chair: TBA</span><span class="left">${talkList}</span>`;
+            // Get chair name from first talk in the session (all talks in a session have the same chair)
+            const chairName = event.talks[0]['Chair'] || 'TBA';
+            div.innerHTML = `Contributed talks (${event.talks.length}) <span>Chair: ${chairName}</span><span class="left">${talkList}</span>`;
           } else if (event.type === 'poster') {
             div.className += ' stage-session-type-3';
             div.textContent = event.title;

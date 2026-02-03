@@ -52,6 +52,7 @@
     "Room": {
       "en": "Main conference room"
     },
+    "Chair": "Alex Spears", 
     "Start (date)": "2026-02-02",
     "Start (time)": "17:30:00",
     "End (date)": "2026-02-02",
@@ -93,6 +94,7 @@
     "Room": {
       "en": "Main conference room"
     },
+    "Chair": "Ash Baldwin",
     "Start (date)": "2026-02-04",
     "Start (time)": "10:00:00",
     "End (date)": "2026-02-04",
@@ -134,6 +136,7 @@
     "Room": {
       "en": "Main conference room"
     },
+    "Chair": "Ross Amory",
     "Start (date)": "2026-02-05",
     "Start (time)": "08:30:00",
     "End (date)": "2026-02-05",
@@ -155,6 +158,7 @@
     "Room": {
       "en": "Main conference room"
     },
+    "Chair": "Lukas Hörmann",
     "Start (date)": "2026-02-03",
     "Start (time)": "17:30:00",
     "End (date)": "2026-02-03",
@@ -175,7 +179,7 @@
     "Duration": 20,
     "Room": {
       "en": "Main conference room"
-    },
+    },    "Chair": "Alex Spears",    "Chair": "Lukas Hörmann",
     "Start (date)": "2026-02-03",
     "Start (time)": "18:10:00",
     "End (date)": "2026-02-03",
@@ -197,6 +201,7 @@
     "Room": {
       "en": "Main conference room"
     },
+    "Chair": "Alex Spears",
     "Start (date)": "2026-02-02",
     "Start (time)": "20:40:00",
     "End (date)": "2026-02-02",
@@ -218,6 +223,7 @@
     "Room": {
       "en": "Main conference room"
     },
+    "Chair": "Reinhard Maurer",
     "Start (date)": "2026-02-03",
     "Start (time)": "21:00:00",
     "End (date)": "2026-02-03",
@@ -274,8 +280,7 @@
     "Duration": 20,
     "Room": {
       "en": "Main conference room"
-    },
-    "Start (date)": "2026-02-05",
+    },    "Chair": "Ross Amory",    "Start (date)": "2026-02-05",
     "Start (time)": "08:50:00",
     "End (date)": "2026-02-05",
     "End (time)": "09:10:00"
@@ -315,7 +320,7 @@
     "Duration": 20,
     "Room": {
       "en": "Main conference room"
-    },
+    },    "Chair": "Lukas Hörmann",    "Chair": "Wojciech Stark",
     "Start (date)": "2026-02-04",
     "Start (time)": "17:30:00",
     "End (date)": "2026-02-04",
@@ -398,6 +403,7 @@
     "Room": {
       "en": "Main conference room"
     },
+    "Chair": "Katherine Inzani",
     "Start (date)": "2026-02-03",
     "Start (time)": "10:00:00",
     "End (date)": "2026-02-03",
@@ -419,6 +425,7 @@
     "Room": {
       "en": "Main conference room"
     },
+    "Chair": "Katherine Inzani",
     "Start (date)": "2026-02-03",
     "Start (time)": "10:40:00",
     "End (date)": "2026-02-03",
@@ -460,6 +467,7 @@
     "Room": {
       "en": "Main conference room"
     },
+    "Chair": "Ash Baldwin",
     "Start (date)": "2026-02-04",
     "Start (time)": "10:40:00",
     "End (date)": "2026-02-04",
@@ -501,6 +509,7 @@
     "Room": {
       "en": "Main conference room"
     },
+    "Chair": "Ross Amory",
     "Start (date)": "2026-02-05",
     "Start (time)": "09:10:00",
     "End (date)": "2026-02-05",
@@ -581,7 +590,7 @@
     "Duration": 20,
     "Room": {
       "en": "Main conference room"
-    },
+    },    "Chair": "Reinhard Maurer",
     "Start (date)": "2026-02-03",
     "Start (time)": "21:20:00",
     "End (date)": "2026-02-03",
@@ -640,6 +649,7 @@
     "Room": {
       "en": "Main conference room"
     },
+    "Chair": "Ash Baldwin", 
     "Start (date)": "2026-02-04",
     "Start (time)": "08:30:00",
     "End (date)": "2026-02-04",
@@ -677,6 +687,7 @@
     "Room": {
       "en": "Main conference room"
     },
+    "Chair": "Katherine Inzani",
     "Start (date)": "2026-02-03",
     "Start (time)": "10:20:00",
     "End (date)": "2026-02-03",
@@ -718,6 +729,7 @@
     "Room": {
       "en": "Main conference room"
     },
+    "Chair": "Ash Baldwin",
     "Start (date)": "2026-02-04",
     "Start (time)": "10:20:00",
     "End (date)": "2026-02-04",
@@ -819,6 +831,7 @@
     "Room": {
       "en": "Main conference room"
     },
+    "Chair": "Reinhard Maurer",
     "Start (date)": "2026-02-03",
     "Start (time)": "21:40:00",
     "End (date)": "2026-02-03",
@@ -837,6 +850,7 @@
     "Room": {
       "en": "Main conference room"
     },
+    "Chair": "Reinhard Maurer", 
     "Start (date)": "2026-02-03",
     "Start (time)": "20:00:00",
     "End (date)": "2026-02-03",
@@ -857,8 +871,7 @@
     "Duration": 20,
     "Room": {
       "en": "Main conference room"
-    },
-    "Start (date)": "2026-02-02",
+    },    "Chair": "Alex Spears",    "Start (date)": "2026-02-02",
     "Start (time)": "20:00:00",
     "End (date)": "2026-02-02",
     "End (time)": "20:20:00"
@@ -879,6 +892,7 @@
     "Room": {
       "en": "Main conference room"
     },
+    "Chair": "Wojciech Stark",
     "Start (date)": "2026-02-04",
     "Start (time)": "17:50:00",
     "End (date)": "2026-02-04",
@@ -900,6 +914,7 @@
     "Room": {
       "en": "Main conference room"
     },
+    "Chair": "Wojciech Stark",
     "Start (date)": "2026-02-04",
     "Start (time)": "18:10:00",
     "End (date)": "2026-02-04",
